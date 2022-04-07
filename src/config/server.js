@@ -11,7 +11,7 @@ const session = require('express-session');
 const app = express();
 
 //Configurar puerto
-app.set('port', process.env.PORT || 4000);
+app.set('port', process.env.PORT || 8000);
 
 //Configurar gestor de plantillas
 app.set('view engine', 'ejs'); 
